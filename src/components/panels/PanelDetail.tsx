@@ -28,7 +28,7 @@ function PanelDetail(props: {
                       isNewQuestion: boolean }) {
   
   // 質問の詳細jsonのパス
-  const initialUrl = '/questions/q' + props.selectedQuestion.id + '.json';
+  const initialUrl = '/lateral-thinking/questions/q' + props.selectedQuestion.id + '.json';
   
   // ローディング中かどうか
   const [loading, setLoading] = useState(true);
