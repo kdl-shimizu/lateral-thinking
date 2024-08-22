@@ -1,0 +1,178 @@
+{
+  "question_details": [
+    {
+      "q_word": "晴れ",
+      "q_relation_words": [
+        {
+          "relation_word": "今日",
+          "sentences": [
+            {
+              "id": 1,
+              "sentence": "今日は晴れていますか",
+              "answer": "はい、晴れています",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "今日は晴れている"
+            },
+            {
+              "id": 2,
+              "sentence": "今日は雨の予報が出ていましたか",
+              "answer": "いいえ、出ていません",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "今日は雨の予報は出ていない"
+            },
+            {
+              "id": 3,
+              "sentence": "今日の天気は関係ありますか",
+              "answer": "いいえ、関係ありません",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "今日の天気は関係ない"
+            }
+          ]
+        },
+        {
+          "relation_word": "昨日",
+          "sentences": [
+            {
+              "id": 4,
+              "sentence": "昨日の天気は関係ありますか",
+              "answer": "はい、関係あります",
+              "nice": true,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "昨日の天気に関係する"
+            },
+            {
+              "id": 5,
+              "sentence": "昨日は雨が降りましたか",
+              "answer": "はい、午後から雨が降りました",
+              "nice": true,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "昨日は午後から雨が降った"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q_word": "少女",
+      "q_relation_words": [
+        {
+          "relation_word": "行動",
+          "sentences": [
+            {
+              "id": 6,
+              "sentence": "少女は傘を気に入っていますか",
+              "answer": "関係ありません",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "少女が傘を気に入っているかは関係ない"
+            },
+            {
+              "id": 7,
+              "sentence": "少女は傘を使うために持っていきましたか",
+              "answer": "いいえ",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "傘を使うために持っていったのではない"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q_word": "傘",
+      "q_relation_words": [
+        {
+          "relation_word": "持ち主",
+          "sentences": [
+            {
+              "id": 8,
+              "sentence": "傘の持ち主は少女ですか",
+              "answer": "いいえ、ちがいます",
+              "nice": true,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "傘の持ち主は少女ではない"
+            },
+            {
+              "id": 9,
+              "sentence": "少女は昨日傘を忘れましたか",
+              "answer": "はい",
+              "nice": true,
+              "required_id": 5,
+              "release": false,
+              "done_sentence": "少女は昨日傘を忘れていった"
+            },
+            {
+              "id": 10,
+              "sentence": "少女は傘を借りましたか",
+              "answer": "はい、友達に傘を借りました",
+              "nice": true,
+              "required_id": 8,
+              "release": false,
+              "done_sentence": "少女は友達に傘を借りた"
+            }
+          ]
+        },
+        {
+          "relation_word": "種類",
+          "sentences": [
+            {
+              "id": 11,
+              "sentence": "傘は日傘ですか",
+              "answer": "いいえ、雨傘です",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "傘は雨傘である"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "answer_sentence": {
+    "base_sentence": "少女は{word}傘を{word}ために持っていった",
+    "answer_words": [
+      {
+        "word": "借りた",
+        "flag_id": [8, 9, 10]
+      },
+      {
+        "word": "使う",
+        "flag_id": []
+      },
+      {
+        "word": "お気に入りの",
+        "flag_id": []
+      },
+      {
+        "word": "返す",
+        "flag_id": [8, 9, 10]
+      },
+      {
+      "word": "盗む",
+      "flag_id": []
+      }
+    ],
+    "answer": [
+      {
+        "id": 1,
+        "answer": "借りた"
+      },
+      {
+        "id": 2,
+        "answer": "返す"
+      }
+    ]
+  }
+}

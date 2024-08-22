@@ -1,0 +1,294 @@
+{
+  "question_details": [
+    {
+      "q_word": "男",
+      "q_relation_words": [
+        {
+          "relation_word": "人物",
+          "sentences": [
+            {
+              "id": 1,
+              "sentence": "男は食にこだわりを持っていますか",
+              "answer": "関係ありません",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "食へのこだわりは関係ない"
+            },
+            {
+              "id": 2,
+              "sentence": "男はめんどくさい性格をしていますか",
+              "answer": "関係ありません",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "性格は関係ない"
+            }
+          ]
+        },
+        {
+          "relation_word": "経歴",
+          "sentences": [
+            {
+              "id": 3,
+              "sentence": "男に犯罪歴はありますか",
+              "answer": "いいえ、ありません",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "犯罪歴はない"
+            },
+            {
+              "id": 4,
+              "sentence": "男は何かしらの病にかかっていますか",
+              "answer": "いいえ、健康です",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "男に病気はない"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q_word": "海",
+      "q_relation_words": [
+        {
+          "relation_word": "場所",
+          "sentences": [
+            {
+              "id": 5,
+              "sentence": "男にとって海は思い出のある場所ですか",
+              "answer": "はい。思い出深い場所ですが、それは決して良い思い出ではないのです…",
+              "nice": true,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "海は男にとって思い出深い場所である"
+            },
+            {
+              "id": 6,
+              "sentence": "男はかつで海で辛い経験をしましたか",
+              "answer": "はい、男は過去に海で遭難した経験があるのです",
+              "nice": true,
+              "required_id": 5,
+              "release": false,
+              "done_sentence": "男は過去に海で辛い経験をしたことがある"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q_word": "レストラン",
+      "q_relation_words": [
+        {
+          "relation_word": "メニュー",
+          "sentences": [
+            {
+              "id": 7,
+              "sentence": "ウミガメのスープを注文したことは重要ですか",
+              "answer": "はい、ウミガメのスープを頼んだために起こったことです",
+              "nice": true,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "ウミガメのスープを注文したことは重要である"
+            },
+            {
+              "id": 17,
+              "sentence": "レストランのメニューは豊富ですか",
+              "answer": "はい、豊富ですが、それは関係ありません",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "メニューの豊富さは関係ない"
+            }
+          ]
+        },
+        {
+          "relation_word": "過去",
+          "sentences": [
+            {
+              "id": 8,
+              "sentence": "男は過去にこのレストランにきたことがありますか",
+              "answer": "いいえ、ありません",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "男がこのレストランに来たのは初めてである"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q_word": "ウミガメのスープ",
+      "q_relation_words": [
+        {
+          "relation_word": "味",
+          "sentences": [
+            {
+              "id": 9,
+              "sentence": "男が飲んだウミガメのスープは不味かったですか",
+              "answer": "いいえ、シェフ自慢の絶品のスープでした",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "スープは不味くなかった"
+            },
+            {
+              "id": 10,
+              "sentence": "男が過去に飲んだスープとレストランで飲んだスープは同じ味がしましたか",
+              "answer": "いいえ、全く違う味がしました",
+              "nice": true,
+              "required_id": 11,
+              "release": false,
+              "done_sentence": "過去に飲んだスープとは異なる味がした"
+            }
+          ]
+        },
+        {
+          "relation_word": "過去",
+          "sentences": [
+            {
+              "id": 11,
+              "sentence": "男は過去にもウミガメのスープを飲んだことがありましたか",
+              "answer": "はい、あります。しかし…",
+              "nice": true,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "男は過去にもウミガメのスープを飲んだことがある"
+            },
+            {
+              "id": 12,
+              "sentence": "男が過去に飲んだウミガメのスープは今日飲んだスープと同じものでしたか",
+              "answer": "いいえ、過去に飲んだスープと全くちがう味がしました",
+              "nice": true,
+              "required_id": 11,
+              "release": false,
+              "done_sentence": "過去に飲んだスープとは異なる味がした"
+            },
+            {
+              "id": 13,
+              "sentence": "男は遭難したときにウミガメのスープを飲みましたか",
+              "answer": "はい、仲間からウミガメのスープを渡されて飲みました",
+              "nice": true,
+              "required_id": 6,
+              "release": false,
+              "done_sentence": "遭難したときにウミガメのスープを飲んだ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "q_word": "自殺",
+      "q_relation_words": [
+        {
+          "relation_word": "動機",
+          "sentences": [
+            {
+              "id": 14,
+              "sentence": "男は何かに悩んでいましたか",
+              "answer": "いいえ、悩んでいません",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "悩みがあったわけではない"
+            },
+            {
+              "id": 0,
+              "sentence": "男は金銭トラブルがありましたか",
+              "answer": "ないですが、問題には関係ありません",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "金銭トラブルは関係ない"
+            },
+            {
+              "id": 15,
+              "sentence": "男は人間関係でトラブルがありましたか",
+              "answer": "いいえ、ありません",
+              "nice": false,
+              "required_id": 0,
+              "release": false,
+              "done_sentence": "人間関係のトラブルはない"
+            },
+            {
+              "id": 16,
+              "sentence": "男が自殺をしたのは飲んだウミガメのスープが異なっていたことが原因ですか",
+              "answer": "はい、それが原因です",
+              "nice": true,
+              "required_id": 12,
+              "release": false,
+              "done_sentence": "ウミガメのスープが原因で自殺した"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "answer_sentence": {
+    "base_sentence": "男は海で{word}したときに飲んだウミガメのスープが{word}と{word}ために自殺してしまった",
+    "answer_words": [
+      {
+        "word": "遭難",
+        "flag_id": [6]
+      },
+      {
+        "word": "旅行",
+        "flag_id": [6]
+      },
+      {
+        "word": "散財",
+        "flag_id": []
+      },
+      {
+        "word": "不味い",
+        "flag_id": [9]
+      },
+      {
+        "word": "楽しい",
+        "flag_id": []
+      },
+      {
+        "word": "本物",
+        "flag_id": [11,12,13]
+      },
+      {
+      "word": "偽物",
+      "flag_id": [11,12,13]
+      },
+      {
+        "word": "がっかり",
+        "flag_id": []
+      },
+      {
+        "word": "喜んだ",
+        "flag_id": []
+      },
+      {
+        "word": "気付いた",
+        "flag_id": []
+      },
+      {
+        "word": "怒った",
+        "flag_id": []
+      }
+    ],
+    "answer": [
+      {
+        "id": 1,
+        "answer": "遭難"
+      },
+      {
+        "id": 2,
+        "answer": "偽物"
+      },
+      {
+        "id": 3,
+        "answer": "気付いた"
+      }
+    ]
+  }
+}

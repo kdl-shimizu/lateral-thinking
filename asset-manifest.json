@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lateral-thinking/static/css/main.365b3514.css",
+    "main.js": "/lateral-thinking/static/js/main.4e2b5c05.js",
+    "static/media/PixelMplus10-Regular.ttf": "/lateral-thinking/static/media/PixelMplus10-Regular.eb74069f9185f956ed3b.ttf",
+    "static/media/PixelMplus10-Bold.ttf": "/lateral-thinking/static/media/PixelMplus10-Bold.8f4cdda6280bf447d103.ttf",
+    "index.html": "/lateral-thinking/index.html",
+    "main.365b3514.css.map": "/lateral-thinking/static/css/main.365b3514.css.map",
+    "main.4e2b5c05.js.map": "/lateral-thinking/static/js/main.4e2b5c05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.365b3514.css",
+    "static/js/main.4e2b5c05.js"
+  ]
+}
