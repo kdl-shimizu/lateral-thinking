@@ -1,0 +1,19 @@
+{
+  "menu": [
+    {
+      "id": "home",
+      "name": "ホーム",
+      "flag": true
+    },
+    {
+      "id": "thinking",
+      "name": "謎解き",
+      "flag": true
+    },
+    {
+      "id": "help",
+      "name": "遊び方",
+      "flag": true
+    }
+  ]
+}

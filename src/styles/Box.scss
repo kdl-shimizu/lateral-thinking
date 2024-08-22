@@ -1,0 +1,53 @@
+.panel {
+  background-color: white;
+  border-color: darkblue;
+  border-width: 2px;
+  border-radius: 6px;
+  height: 75vh;
+  width: 100vh;
+  padding: 3px;
+}
+
+.text-window {
+  background-color: white;
+  border-color: darkblue;
+  border-width: 2px;
+  border-radius: 6px;
+  height: 15vh;
+  width: 100vh;
+  padding: 5px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.box {
+  margin: 4px;
+  text-align: center;
+  color: white;
+}
+
+.advice {
+  text-align: center;
+  color: black;
+}
+
+.question_area {
+  padding: 6px;
+}
+
+.button_area {
+  text-align: center;
+}
+
+.back_button {
+  margin-right: 50vh;
+}
+
+.modal-text {
+  font-family: "PixelMplus10Regular";
+}
+
+.answer_select {
+  font-family: "PixelMplus10Regular";
+  width: 120px !important;
+}
